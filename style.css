@@ -32,9 +32,18 @@ h3 {
     margin-top: 20px;
 }
 
+h4 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.apaga {
+    margin-top: 0;
+}
+
 .mensagem {
     font-size: 1.5em;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .box {

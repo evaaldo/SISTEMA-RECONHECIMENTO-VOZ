@@ -1,3 +1,4 @@
+const aviso = document.getElementById('aviso')
 const elementoChute = document.getElementById('chute')
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
@@ -18,6 +19,8 @@ function exibeChuteNaTela(chute) {
         <div>Você disse</div>
         <span class="box">${chute}</span>
     `
+    aviso.innerHTML = ''
+    aviso.classList.add = 'apaga'
 }
 
 recognition.addEventListener('end', () => recognition.start())
