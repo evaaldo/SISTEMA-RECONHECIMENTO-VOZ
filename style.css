@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root {
-    --font-family: 'Raleway', sans-serif;
-    --bg-color: #0AA1DD;
-    --primary-color: #E8F9FD;
+    --font-family: 'Open Sans', sans-serif;
+    --bg-color: #FCE700;
+    --primary-color: black;
 }
 
 body {
@@ -47,9 +47,16 @@ h3 {
 }
 
 .btn-jogar {
+    cursor: pointer;
     padding: 8px 15px;
     border: 0;
     background-color: var(--primary-color);
+    color: white;
     border-radius: 5px;
     margin-top: 20px;
+    transition: all 0.2s;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.05);
 }
